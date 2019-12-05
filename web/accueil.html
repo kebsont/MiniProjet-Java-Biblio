@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bibliotheque Doudoux</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+      <section class="signup">
+        <div class="container">
+
+          <!-- Search form -->
+      <!-- <form class="form-inline active-purple-4">
+        <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Rechercher un livre..."
+          aria-label="Search">
+        <i class="zmdi zmdi-search material-icons-name" aria-hidden="true"></i>
+      </form> -->
+          <form method="POST" class="register-form" id="register-form">
+            <div class="form-group col-md-5">
+              <input type="text" placeholder="Rechercher un livre...">
+                <label for="name"><i class="zmdi zmdi-search material-icons-name"></i></label>
+                </div>
+            </form>
+
+            <!-- Collection de livres -->
+            <section>
+              <div class="signup-content">
+                <!-- row -->
+                <div class="row">
+                  <div class="card-group">
+                    <div class="card">
+                      <img class="card-img-top" src="images/book.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Mousquetaire</h5>
+                        <p class="card-text">C'est la description.</p>
+                        <p class="card-text"><small class="text-muted">Apparu il y'a 15 ans</small></p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-success">Disponible</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/book.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Madame Bovarie</h5>
+                        <p class="card-text">C'est la description.</p>
+                        <p class="card-text"><small class="text-muted">Apparu il y'a 15 ans</small></p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-danger">Non disponible</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/book.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Les fantastiques</h5>
+                        <p class="card-text">C'est la description.</p>
+                        <p class="card-text "><small class="text-muted">Apparu il y'a 23 ans</small></p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-center text-success">Disponible</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/book.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">La France</h5>
+                        <p class="card-text">C'est la description.</p>
+                        <p class="card-text"><small class="text-muted">Apparu il y'a 15 ans</small></p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-danger">Non disponible</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- row -->
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Précédent</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Suivant</a>
+                  </li>
+                </ul>
+            </nav>
+            </section>
+            <!-- Collection de livres -->
+
+        </div>
+      </section>
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</html>
